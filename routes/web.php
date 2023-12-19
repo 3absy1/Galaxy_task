@@ -29,6 +29,7 @@ Route::post('SignUp',[SignUpController::class,'create']);
 Route::get('SignUp',[SignUpController::class,'show']);
 
 
+
 //*********************** questions ***************************************************
 
 Route::get('questions', [QuestionsController::class,'show']);
